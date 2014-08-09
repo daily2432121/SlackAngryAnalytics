@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SlackAngryAnalytics.Service1" CodeBehind="SlackRestService.svc.cs" %>
