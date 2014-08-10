@@ -1,0 +1,13 @@
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.csprojResolveAssemblyReference.cache
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.dll.config
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.pdb
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Core.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\RestSharp.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Core.pdb
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.pdb
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\RestSharp.xml
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.pdb
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\Config\FinoConsulting\appSettings.config

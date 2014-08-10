@@ -1,0 +1,7 @@
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\SlackAngryAnalytics.Core.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\SlackAngryAnalytics.Core.pdb
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\RestSharp.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\RestSharp.xml
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.csprojResolveAssemblyReference.cache
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.dll
+C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.pdb

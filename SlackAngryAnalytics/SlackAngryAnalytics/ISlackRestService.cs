@@ -5,6 +5,8 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using SlackAngryAnalytics.Core.Entities;
+using SlackAngryAnalytics.Core.RestVM;
 
 namespace SlackAngryAnalytics
 {
@@ -14,10 +16,10 @@ namespace SlackAngryAnalytics
     {
 
         [OperationContract]
-        string GetData(int value);
+        UserListVM GetAllUsers();
 
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        List<Channel> GetAllChannels();
 
         // TODO: Add your service operations here
     }

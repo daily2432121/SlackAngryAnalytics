@@ -34,6 +34,7 @@
       <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,9 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Channel.cs" />
+    <Compile Include="Entities\ISlackEntity.cs" />
+    <Compile Include="RestVM\SlackRestResponseBodyBase.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Extensitions.cs" />
     <Compile Include="IExecute.cs" />
+    <Compile Include="RestHelper.cs" />
+    <Compile Include="RestVM\UserListVM.cs" />
     <Compile Include="SlackApiConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

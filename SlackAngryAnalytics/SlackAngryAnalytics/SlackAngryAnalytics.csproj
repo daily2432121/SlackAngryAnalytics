@@ -60,7 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SlackRestService.svc" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SlackRestService.svc.cs">
@@ -73,13 +75,21 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\FinoConsulting\appSettings.config" />
+    <Content Include="Config\FinoConsulting\appSettings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SlackAngryAnalytics.Core\SlackAngryAnalytics.Core.csproj">
+      <Project>{0DF13D45-BDD8-4C3F-A239-6F90AD4B23DF}</Project>
+      <Name>SlackAngryAnalytics.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

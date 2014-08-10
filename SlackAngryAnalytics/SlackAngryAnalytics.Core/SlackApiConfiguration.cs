@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace SlackAngryAnalytics.Core
@@ -10,11 +12,22 @@ namespace SlackAngryAnalytics.Core
 
         public string ClientId { get; set; }
         public string ClientSecret { get; set; }
-
-
-        public static SlackApiConfiguration BuildFromSecret(IExecute<SlackApiConfiguration> handler)
+        public string SlackSite { get; set; }
+        public string SlackSiteApiDir
         {
-            SlackApiConfiguration result = handler.ExecuteAndReturn();
+            get { return SlackSite + @"/api"; }
+        }
+        public string TokenTemplate { get { return "?token={0}"; } }
+
+        public static SlackApiConfiguration BuildFromSecret()
+        {
+            string secret = ConfigurationManager.AppSettings["ClientSecret"];
+            string slackSite = ConfigurationManager.AppSettings["SlackSite"];
+            if (secret == null || slackSite == null)
+            {
+                throw new ConfigurationErrorsException("Config is missing.");
+            }
+            var result = new SlackApiConfiguration() {ClientSecret = secret,SlackSite = slackSite};
             return result;
         }
     }

@@ -1,33 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using SlackAngryAnalytics.Core;
+using SlackAngryAnalytics.Core.Entities;
+using SlackAngryAnalytics.Core.RestVM;
 
 namespace SlackAngryAnalytics
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : ISlackRestService
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "SlackRestService" in code, svc and config file together.
+    // NOTE: In order to launch WCF Test Client for testing this service, please select SlackRestService.svc or SlackRestService.svc.cs at the Solution Explorer and start debugging.
+    public class SlackRestService : ISlackRestService
     {
-        public string GetData(int value)
+        public UserListVM GetAllUsers()
         {
-            return string.Format("You entered: {0}", value);
+            SlackApiConfiguration config = SlackApiConfiguration.BuildFromSecret();
+            RestHelper helper = new RestHelper();
+            helper.Init(config.SlackSiteApiDir,config.ClientSecret,config.TokenTemplate);
+            UserListVM vm =helper.HttpsGet<UserListVM>("users.list",useToken:true);
+            Debug.Assert(vm.Members.Count>0);
+            return vm;
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public List<Channel> GetAllChannels()
         {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+            throw new NotImplementedException();
         }
     }
 }

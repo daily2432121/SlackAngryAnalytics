@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SlackAngryAnalytics.Core.Entities
 {
-    public class Channel
+    public class Channel : ISlackEntity
     {
         public string Id { get; set; }
         public string Name { get; set; }
