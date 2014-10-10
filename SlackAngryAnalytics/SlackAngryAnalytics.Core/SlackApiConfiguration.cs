@@ -17,7 +17,7 @@ namespace SlackAngryAnalytics.Core
         {
             get { return SlackSite + @"/api"; }
         }
-        public string TokenTemplate { get { return "?token={0}"; } }
+        public string TokenTemplate { get { return "token={0}"; } }
 
         public static SlackApiConfiguration BuildFromSecret()
         {

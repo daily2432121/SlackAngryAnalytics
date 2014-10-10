@@ -11,3 +11,16 @@ C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bi
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.dll
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.pdb
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\Config\FinoConsulting\appSettings.config
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\Config\FinoConsulting\appSettings.config
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.dll.config
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Tests.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Core.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\RestSharp.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.Core.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\SlackAngryAnalytics.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\bin\Debug\RestSharp.xml
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.csprojResolveAssemblyReference.cache
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Tests\obj\Debug\SlackAngryAnalytics.Tests.pdb

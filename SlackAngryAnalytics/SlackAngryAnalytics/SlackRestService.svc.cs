@@ -8,6 +8,7 @@ using System.ServiceModel.Web;
 using System.Text;
 using SlackAngryAnalytics.Core;
 using SlackAngryAnalytics.Core.Entities;
+using SlackAngryAnalytics.Core.Helpers;
 using SlackAngryAnalytics.Core.RestVM;
 
 namespace SlackAngryAnalytics
@@ -21,14 +22,27 @@ namespace SlackAngryAnalytics
             SlackApiConfiguration config = SlackApiConfiguration.BuildFromSecret();
             RestHelper helper = new RestHelper();
             helper.Init(config.SlackSiteApiDir,config.ClientSecret,config.TokenTemplate);
-            UserListVM vm =helper.HttpsGet<UserListVM>("users.list",useToken:true);
-            Debug.Assert(vm.Members.Count>0);
+            UserListVM vm =helper.HttpsGet<UserListVM>("users.list?",useToken:true);
             return vm;
         }
 
-        public List<Channel> GetAllChannels()
+        public ChannelListVM GetAllChannels()
         {
-            throw new NotImplementedException();
+            SlackApiConfiguration config = SlackApiConfiguration.BuildFromSecret();
+            RestHelper helper = new RestHelper();
+            helper.Init(config.SlackSiteApiDir, config.ClientSecret, config.TokenTemplate);
+            ChannelListVM vm = helper.HttpsGet<ChannelListVM>("channels.list?", useToken: true);
+            return vm;
+        }
+
+        public MessageHistoryVM GetAllMessagesForAChannel(string channelId, DateTime startTime, DateTime endTime)
+        {
+            SlackApiConfiguration config = SlackApiConfiguration.BuildFromSecret();
+            RestHelper helper = new RestHelper();
+            helper.Init(config.SlackSiteApiDir, config.ClientSecret, config.TokenTemplate);
+            string requestStr = string.Format("channels.history?channel={0}&oldest={1}&lastest={2}&count={3}&", channelId, startTime.ToUnixTime(), endTime.ToUnixTime(), 1000);
+            MessageHistoryVM vm = helper.HttpsGet<MessageHistoryVM>(requestStr, useToken: true);
+            return vm;
         }
     }
 }

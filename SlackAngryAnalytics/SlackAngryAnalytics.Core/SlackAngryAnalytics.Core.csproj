@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,19 +44,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Attachment.cs" />
     <Compile Include="Entities\Channel.cs" />
+    <Compile Include="Entities\Editor.cs" />
     <Compile Include="Entities\ISlackEntity.cs" />
+    <Compile Include="Entities\Message.cs" />
+    <Compile Include="GlobalCache.cs" />
+    <Compile Include="Helpers\Extensions.cs" />
+    <Compile Include="Helpers\RestHelper.cs" />
+    <Compile Include="RestVM\ChannelListVM.cs" />
     <Compile Include="RestVM\SlackRestResponseBodyBase.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Extensitions.cs" />
     <Compile Include="IExecute.cs" />
-    <Compile Include="RestHelper.cs" />
     <Compile Include="RestVM\UserListVM.cs" />
     <Compile Include="SlackApiConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

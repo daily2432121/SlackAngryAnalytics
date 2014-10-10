@@ -19,7 +19,7 @@ namespace SlackAngryAnalytics
         UserListVM GetAllUsers();
 
         [OperationContract]
-        List<Channel> GetAllChannels();
+        ChannelListVM GetAllChannels();
 
         // TODO: Add your service operations here
     }

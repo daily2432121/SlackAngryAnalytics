@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using RestSharp;
+﻿using RestSharp;
 
-namespace SlackAngryAnalytics.Core
+namespace SlackAngryAnalytics.Core.Helpers
 {
     public class RestHelper
     {
@@ -28,6 +27,8 @@ namespace SlackAngryAnalytics.Core
             
             RestResponse<T> response = (RestResponse<T>)restClient.Execute<T>(request);
             return response.Data;
+
+            
         }
 
         

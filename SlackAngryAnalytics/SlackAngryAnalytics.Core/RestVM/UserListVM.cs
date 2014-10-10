@@ -12,4 +12,12 @@ namespace SlackAngryAnalytics.Core.RestVM
         [DeserializeAs(Name = "members")]
         public List<User> Members { get; set; }
     }
+
+    public class MessageHistoryVM : SlackRestResponseBodyBase
+    {
+        [DeserializeAs(Name = "messages")]
+        public List<Message> Messages { get; set; }
+        [DeserializeAs(Name = "has_more")]
+        public bool HasMore { get; set; }
+    }
 }

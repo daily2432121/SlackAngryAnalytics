@@ -5,3 +5,10 @@ C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.csprojResolveAssemblyReference.cache
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.dll
 C:\Projects\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\SlackAngryAnalytics.Core.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\SlackAngryAnalytics.Core.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\RestSharp.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\bin\Debug\RestSharp.xml
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.csprojResolveAssemblyReference.cache
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Core\obj\Debug\SlackAngryAnalytics.Core.pdb
