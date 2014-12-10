@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <script type="text/javascript" src="/Scripts/angular.js"></script>
+        <script type="text/javascript" src="/Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+        <script type="text/javascript" src="./channels.js"></script>
+        <!--<link href="/CSS/css/bootstrap.min.css" rel="stylesheet"></link>-->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <title></title>
+    </head>
+    <body ng-app="channels">
+        <form id="form1" runat="server">
+            <div ng-controller="channelController">
+                
+                <div class="well well-lg">
+                    <div ng-hide="Error == null">
+                        Error: {{Error}}
+
+                    </div>
+
+                    <div>
+                        Service online and healthful: {{Ok}}
+
+                    </div>
+                    Channels: <br />
+                
+                    
+                    <!--<div ng-repeat="c in ChannelList">
+                            <ul>
+                                <li ng-bind="c.Id"></li>
+                                <li ng-bind="c.IsArchived"></li>
+                                <li ng-bind="c.IsGeneral"></li>
+                                <li ng-bind="c.Members"></li>
+                                <li ng-bind="c.Name"></li>    
+                            </ul>
+                            <br/>
+                        </div>-->
+                        
+                
+                    
+                </div>
+                <accordion close-others="oneAtATime">
+                    <accordion-group ng-repeat="c in ChannelList" heading="{{c.Name}}" is-open="">
+
+                        <ul>
+                            <li ng-bind="c.Id"></li>
+                            <li> <button ng-click="getHistory(c.Id)">Get History</button></li>
+                            <li ng-bind="c.IsArchived"></li>
+                            <li ng-bind="c.IsGeneral"></li>
+                            <li ng-bind="c.Members"></li>
+                            <li ng-bind="c.Name"></li>
+
+                        </ul>
+                        
+                        
+                        <!--<li ng-bind="c.IsArchived"></li>
+                        <li ng-bind="c.IsGeneral"></li>-->
+                        <!--<li ng-bind="c.Members"></li>-->
+
+
+
+                    </accordion-group>
+                </accordion>
+
+            </div>
+        </form>
+    </body>
+</html>

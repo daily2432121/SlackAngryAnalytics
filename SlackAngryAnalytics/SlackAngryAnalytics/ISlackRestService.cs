@@ -21,6 +21,10 @@ namespace SlackAngryAnalytics
         [OperationContract]
         ChannelListVM GetAllChannels();
 
+
+        [OperationContract]
+        MessageHistoryVM GetAllMessagesForAChannel(string channelId, DateTime startTime, DateTime endTime);
+
         // TODO: Add your service operations here
     }
 

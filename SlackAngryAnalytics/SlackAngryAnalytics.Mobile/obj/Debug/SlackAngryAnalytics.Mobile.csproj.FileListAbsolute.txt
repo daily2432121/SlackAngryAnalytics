@@ -1,0 +1,13 @@
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.Mobile.dll.config
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.Mobile.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.Mobile.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\obj\Debug\SlackAngryAnalytics.Mobile.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\obj\Debug\SlackAngryAnalytics.Mobile.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\Config\FinoConsulting\appSettings.config
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.Core.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\RestSharp.dll
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.Core.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\SlackAngryAnalytics.pdb
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\bin\RestSharp.xml
+C:\Users\cheng\Documents\SlackAngryAnalytics\SlackAngryAnalytics\SlackAngryAnalytics.Mobile\obj\Debug\SlackAngryAnalytics.Mobile.csprojResolveAssemblyReference.cache
